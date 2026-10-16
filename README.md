@@ -201,3 +201,20 @@ El archivo `requirements.txt` contiene las librerías utilizadas:
 ---
 
 Proyecto académico de ETL sobre deserción en la educación superior en Colombia.
+
+# Transformación de Datos - Capa Silver
+
+Este repositorio contiene el script y la documentación para procesar, limpiar y estructurar los datos de la **Capa Silver**. En esta etapa se aplican reglas de calidad, estandarización de tipos de datos y formateo de columnas.
+
+---
+
+## 📁 Estructura del Repositorio
+
+```text
+├── docs/
+│   └── resumen_silver.md      # Documentación técnica y reglas aplicadas en Silver
+├── transformation/
+│   └── transform_silver.py    # Script ejecutable de transformación a la Capa Silver
+├── .gitignore                 # Exclusión de datos generados y entornos virtuales
+├── README.md                  # Instrucciones de ejecución del proyecto
+└── requirements.txt           # Dependencias necesarias para ejecutar el proyecto
